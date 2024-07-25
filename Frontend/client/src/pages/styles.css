@@ -1,0 +1,136 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../quote.jpg.jpg.jpg');
+  color: #f4ecec; /* Sets the text color to dark gray */
+  background-color: #3b3b40; /* Sets the background color to light gray */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 100px; /* Adjust the size of the logo */
+  height: 100px; /* Adjust the size of the logo */
+  margin-right: 10px;
+}
+
+.navbar {
+  background-color: #6a6b6c;
+  color: #fff;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px; /* Increase the font size */
+}
+
+/* Container styles */
+.container {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #5e5f5f;
+  border-radius: 4px;
+  font-size: 16px; /* Increase the font size */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2263ae;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Increase the font size */
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 0%);
+}
+
+/* Product list styles */
+.product-list table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.product-list th, .product-list td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.product-list th {
+  background-color: #5993d5;
+  color: #180303;
+  font-size: 16px; /* Increase the font size */
+}
+
+.product-list td {
+  vertical-align: middle;
+  font-size: 14px; /* Increase the font size */
+}
+
+/* Error message styles */
+.error {
+  color: #247fe9;
+  font-size: 16px; /* Increase the font size */
+}
+
+/* Search section styles */
+.search input[type="text"] {
+  font-size: 16px; /* Increase the font size */
+}
+
+/* Sidebar styles */
+.sidebar {
+  max-width: 100%;
+  background-color: #f9f4f4;
+  color: #000;
+  width: 200px;
+  padding: 20px;
+}
+
+.sidebar a {
+  color: #000;
+  font-size: 16px; /* Increase the font size */
+}
+
+.sidebar a:hover {
+  color: #247fe9;
+}
+.nik{
+  background-color: #247fe9;
+  color: #fff;
+  padding: 10px;
+}
